@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Controller
-public class SechController implements ErrorController {
+public class SeController implements ErrorController {
     @RequestMapping("/error")
     public String handleError() {
         // Quản lý lỗi và trả về trang tùy chỉnh
